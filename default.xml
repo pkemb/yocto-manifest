@@ -2,9 +2,19 @@
 
 <manifest>
     <remote name="pkemb" fetch=".." review="gerrit.pk.inc"/>
+
     <remote name="github" fetch="https://github.com"/>
+    <remote name="github_mirror" fetch="http://cgit.pk.inc/github.com"/>
+
     <remote name="yocto" fetch="https://git.yoctoproject.org"/>
+    <remote name="yocto_mirror" fetch="http://cgit.pk.inc/git.yoctoproject.org"/>
+
     <remote name="oe" fetch="https://git.openembedded.org"/>
+    <remote name="oe_mirror" fetch="http://cgit.pk.inc/git.openembedded.org"/>
+
+    <remote name="kernel" fetch="https://git.kernel.org"/>
+    <remote name="kernel_mirror" fetch="http://cgit.pk.inc/git.kernel.org"/>
+
     <remote name="gitee-mirrors" fetch="https://gitee.com/mirrors"/>
     <remote name="gitee" fetch="https://gitee.com"/>
 
