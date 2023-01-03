@@ -34,7 +34,7 @@
     />
     <project
         path="meta/meta-clang"
-        name="kraj/meta-clang"
+        name="kraj/meta-clang.git"
         remote="github_mirror"
         revision="kirkstone"
     />
