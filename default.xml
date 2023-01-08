@@ -18,5 +18,30 @@
     <remote name="gitee-mirrors" fetch="https://gitee.com/mirrors"/>
     <remote name="gitee" fetch="https://gitee.com"/>
 
-    <default revision="refs/heads/master" remote="pkemb" sync-j="4"/>
+    <default revision="refs/heads/dunfell" remote="pkemb" sync-j="4"/>
+
+    <project
+        path="meta/poky"
+        name="poky"
+        remote="yocto_mirror"
+        revision="dunfell"
+    />
+    <project
+        path="meta/meta-openembedded"
+        name="meta-openembedded"
+        remote="oe_mirror"
+        revision="dunfell"
+    />
+    <project
+        path="meta/meta-clang"
+        name="kraj/meta-clang.git"
+        remote="github_mirror"
+        revision="dunfell"
+    />
+    <project
+        path="meta/meta-pkemb"
+        name="yocto/meta-pkemb"
+        remote="pkemb"
+        revision="dunfell"
+    />
 </manifest>
