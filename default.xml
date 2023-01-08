@@ -27,6 +27,18 @@
         revision="dunfell"
     />
     <project
+        path="meta/meta-raspberrypi"
+        name="meta-raspberrypi"
+        remote="yocto_mirror"
+        revision="dunfell"
+    />
+    <project
+        path="meta/meta-security"
+        name="meta-security"
+        remote="yocto_mirror"
+        revision="dunfell"
+    />
+    <project
         path="meta/meta-openembedded"
         name="meta-openembedded"
         remote="oe_mirror"
@@ -35,6 +47,12 @@
     <project
         path="meta/meta-clang"
         name="kraj/meta-clang.git"
+        remote="github_mirror"
+        revision="dunfell"
+    />
+    <project
+        path="meta/meta-qt5"
+        name="meta-qt5/meta-qt5.git"
         remote="github_mirror"
         revision="dunfell"
     />
